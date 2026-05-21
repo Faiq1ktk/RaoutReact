@@ -1,0 +1,61 @@
+.home-page {
+  padding: 30px;
+  text-align: center;
+}
+
+.about-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.about-btn:active {
+  transform: translateY(0);
+}
+
+.home-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.home-menu a {
+  text-decoration: none;
+  background-color: #e5e7eb;
+  color: #111827;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.home-menu a:hover {
+  background-color: #d1d5db;
+}
+
+.home-menu a.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.home-content {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #d1d5db;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+}
